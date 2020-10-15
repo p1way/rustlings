@@ -1,11 +1,12 @@
 // enums1.rs
 // Make me compile! Execute `rustlings hint enums1` for hints!
 
-// I AM NOT DONE
-
 #[derive(Debug)]
 enum Message {
-    // TODO: define a few types of messages as used below
+    Quit = 0,
+    Echo = 1,
+    Move = 2,
+    ChangeColor = 3,
 }
 
 fn main() {
